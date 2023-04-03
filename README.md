@@ -1,4 +1,4 @@
-# Panel-admin-discoteca
+# Ticket-management-for-events
  Administration panel where you can manage your events, cost of tickets, participants and PR's
 
 ### Features

@@ -1,0 +1,27 @@
+RewriteEngine on
+
+RewriteRule ^form/(.*)$  /forms.php?page=$1 [L]
+
+RewriteRule ^events/(.*)$  /event.php?id=$1 [L]
+RewriteRule ^create/event$  /event_create.php [L]
+
+RewriteRule ^tickets/(.*)$  /ticket.php?id=$1 [L]
+RewriteRule ^ticket/check$  /check_ticket.php [L]
+
+RewriteRule ^home$  /home.php [L]
+RewriteRule ^login$  /login.php [L]
+RewriteRule ^logout$  /logout.php [L]
+
+RewriteRule ^guests/(.*)/create$  /guest_create.php?id=$1 [L]
+RewriteRule ^guests/(.*)$  /guest.php?id=$1 [L]
+RewriteRule ^guests$  /guest.php [L]
+
+RewriteRule ^users/(.*)$  /users_view.php?id=$1 [L]
+RewriteRule ^users$  /users.php [L]
+
+RewriteRule ^ranks/(.*)$  /ranks_view.php?id=$1 [L]
+RewriteRule ^ranks$  /ranks.php [L]
+
+
+# Ticker View
+RewriteRule ^tv/(.*)$  /entrada_para_el_comprador.php?code=$1 [L]

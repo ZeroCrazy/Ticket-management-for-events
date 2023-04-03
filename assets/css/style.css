@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    color: #333333;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif !important;
+}
+a {
+    color: #384859;
+}
+nav {
+    box-shadow: none;
+    margin-bottom: 20px;
+    color: #212424;
+    background-color: #ffffff;
+    border-bottom: 4px solid red;
+    box-shadow: 0px 20px 20px 0px rgb(255 0 0 / 25%);
+}
+nav .brand-logo, nav, .sidenav li>a, nav ul a, nav a {
+    color: #212424;
+    font-family: poppins, helvetica, arial, sans-serif;
+}
+nav .brand-logo {
+    font-weight: bold;
+    text-transform: lowercase;
+    letter-spacing: -3px;
+}
+.card {
+    /*box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 0.15);*/
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px #0000000d;
+    opacity: 1;
+}
+.default-color {
+    color: #384859 !important;
+}
+.default-background {
+    background-color: #384859 !important;
+    color: #fff !important;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 14.44px 10px;
+}
+.dataTables_paginate {
+    width: 100%;
+    text-align: center;
+}
+.dataTables_wrapper .dataTables_paginate {
+    padding: 20px 0px;
+}
+table.dataTable thead th, table.dataTable thead td, table.dataTable.no-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 15px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, .paginate_button {
+    height: 32.4px !important;
+    line-height: 32.4px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    margin: 2px !important;
+    text-align: center !important;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer !important;
+    border: none !important;
+    border-radius: 2px !important;
+    background: #384859 !important;
+    color: #fff !important;
+    display: inline-block !important;
+    padding: 0 16px !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+table.dataTable tbody tr {
+    font-family: "Open Sans",Verdana,Tahoma,serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.paginate_button.disabled {
+    pointer-events: none;
+    background: #DFDFDF !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #9F9F9F !important;
+    cursor: default;
+}
+
+/* Theme */
+.cover {
+    background: rgb(0 0 0 / 65%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.card.stats {
+    color: #2b2b2b;
+    border-radius: 6px;
+    box-shadow: 0px 20px 40px 0px rgba(12, 0, 46, 0.08);
+    padding: 0px;
+    overflow: hidden;
+}
+.card.stats .icono {
+    font-size: 10rem;
+    position: absolute;
+    color: rgb(255 255 255 / 10%);
+    zoom: 1.75;
+    line-height: 50%;
+    z-index: 1;
+}
+.card.stats .card-content {
+    padding: 0px;
+}
+.card.stats .card-title.titl {
+    font-weight: bold;
+    font-size: 3em;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    margin-bottom: 21px;
+    font-size: 3rem;
+    border: none !important;
+    box-shadow: none !important;
+}
+.card.stats .card-title.period {
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.progress {
+    height: 20px;
+    margin-top: -15px;
+    position: absolute;
+    border-radius: 0px;
+    background-color: rgb(255 255 255 / 29%);
+}
+.progress .determinate {
+    background-color: #000;
+}
+.min {
+    margin-top: -49px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 5px;
+}
+.max {
+    margin-top: -49px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+/* Events */
+.ev-banner {
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    min-height: 250px;
+}
+.blurry-flyer {
+    position: absolute;
+    top: 53px;
+    z-index: -1;
+    width: 100%;
+    height: 315px;
+    background-size: cover;
+    background-position: top center;
+    filter: blur(30px);
+    opacity: 0.8;
+}
+.ev-banner .card-title {
+    line-height: 230px;
+    font-size: 3rem;
+}
+.card.events {
+    padding-top: 1px;
+    overflow: hidden;
+}
+.events .card-content {
+    /*padding: 24px;*/
+    padding: 0px;
+}
+.events.agotado{
+    background-image: linear-gradient(to top, #420f0f, #8f1818 70%, #cf4040 100%) !important;
+    box-shadow: 0px 3px 15px #00000026 !important;
+}
+.events.finalizado{
+    background-image: linear-gradient(to top, #413c3c, #8d8282 70%, #cfc4c4 100%) !important;
+    box-shadow: 0px 3px 15px #00000026 !important;
+}
+.events.agotado .card-title, .events.finalizado .card-title {
+    color: #fff !important;
+}
+.events .banner {
+    background-color: #000;
+    height: 168px;
+    /*border-radius: 20px;*/
+    background-position: center !important;
+    background-size: cover !important;
+    overflow: hidden;
+}
+.banner.agotado::before {
+    content: attr(css-text-soldout);
+    /* background-image: linear-gradient(310deg, #232323 -30%, #232323, #4a4a4a 70%); */
+    background-image: linear-gradient(310deg, #5f1d1d -30%, #7a2d2d, #cf4040 70%);
+    font-size: 11.5px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    padding-right: 8px;
+    font-weight: inherit;
+    color: #ffffff;
+    width: 172px;
+    margin-bottom: -30px;
+    height: 30px;
+    display: block;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: 1;
+    margin-left: auto;
+    top: 33px;
+    right: -43px;
+    line-height: 30px;
+}
+.banner.finalizado::before {
+	content: attr(css-text-waitroom);
+    background-image: linear-gradient(310deg, #232323 -30%, #232323, #4a4a4a 70%);
+    font-size: 11.5px;
+    text-align: center;
+    letter-spacing: -0.1px;
+	padding-right: 4px;
+    font-weight: inherit;
+    color: #ffffff;
+    width: 150px;
+    margin-bottom: -30px;
+    height: 30px;
+    display: block;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: 1;
+	margin-left: auto;
+    top: 24px;
+    right: -36px;
+    line-height: 30px;
+}
+.events .date_event {
+    text-transform: capitalize;
+    margin-top: -24px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #0000000d;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-family: poppins, helvetica, arial, sans-serif;
+}
+.events .date_event span {
+    font-size: 13px;
+    font-weight: 400;
+    background: #fff;
+    text-transform: lowercase;
+}
+.events .card-title {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-family: poppins, helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.events .info {
+    color: #B7B7B7;
+    font-family: poppins, helvetica, arial, sans-serif;
+    font-size: 14px;
+    min-height: 42px;
+}
+.events .info i {
+    font-size: 12px;
+    min-width: 20px;
+}
+.event.alert {
+    font-family: poppins, helvetica, arial, sans-serif;
+    font-size: 20px;
+}
+/* Tickets */
+.tickets .btns {
+    padding: 0px;
+    height: 164.98px;
+}
+.tickets .save {
+    height: 50%;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+    line-height: 80px;
+    font-family: poppins, helvetica, arial, sans-serif;
+    font-weight: bold;
+}
+.tickets .delete {
+    bottom: 0px;
+    right: 0px;
+    height: 50%;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+    line-height: 80px;
+    font-family: poppins, helvetica, arial, sans-serif;
+    font-weight: bold;
+}
+.tickets .name {
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: bold;
+    font-family: poppins, helvetica, arial, sans-serif;
+    font-size: 1.5rem !important;
+}
