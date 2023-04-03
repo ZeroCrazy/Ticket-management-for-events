@@ -3,6 +3,8 @@
 
 ### Features
 
+- Video on Youtube: https://youtu.be/Rnjp_Xm3M1A
+
 - [x] Currently the version is developed in **PHP 8.2.4**
 - [x] Event system (create, edit, delete)
   - [x] Access (ticket name, price, maximum capacity)
