@@ -2,10 +2,10 @@
     
     # Configuración CMS
     $url = "http://localhost"; // Enlace de la web
-    $name = "DISKÓTEKH"; // Nombre del proyecto
+    $name = "Tickaloo"; // Nombre del proyecto
     $s['default_lang'] = 'es';
     $s = array(
-        'name' => 'DISKÓTEKH',
+        'name' => 'Tickaloo',
         'url' => 'http://localhost',
         'default_lang' => 'es',
         'email' => [
