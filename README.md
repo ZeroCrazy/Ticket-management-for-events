@@ -3,7 +3,7 @@
 
 ### Features
 
-- Video on Youtube: https://youtu.be/Rnjp_Xm3M1A
+- Video on Streamable: https://streamable.com/8gh1w6
 
 - [x] Currently the version is developed in **PHP 8.2.4**
 - [x] Event system (create, edit, delete)
